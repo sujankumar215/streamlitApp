@@ -19,5 +19,6 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: git push --force https://Krishnaik06:$HF_TOKEN@huggingface.co/spaces/sujankumar15/streamlit_app
+        
 
             
